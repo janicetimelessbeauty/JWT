@@ -7,6 +7,6 @@ app.use(cors())
 app.use(express.json())
 app.use("/auth", userRoutes)
 app.use("/dashboard", dashboardRoutes)
-app.listen(4000, () => {
+app.listen(6000, () => {
     console.log("Server starting on port 4000")
 })
